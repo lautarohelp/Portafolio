@@ -1,0 +1,15 @@
+.Contact-header {
+    display: flex;
+}
+
+.Contact-header a {
+    color:var(--primary-text);
+    font-size: 2.7rem;
+    margin: 5px 10px ;
+    transition: all 0.2s;
+}
+
+.Contact-header a:hover {
+    color: rgba(255, 255, 0, 0.531);
+    transform: scale(1.5);
+}

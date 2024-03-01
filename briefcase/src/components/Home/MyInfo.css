@@ -1,0 +1,37 @@
+.MyInfo-contains {
+    font-size: 2.7rem;
+    color: var(--secondary-text);
+}
+
+.MyInfo-contains h1 {
+    margin-bottom: 80px;
+}
+
+.MyInfo-contains h1 span {
+    color: var(--primary-text);
+}
+.MyInfo-contains p {
+    font-size: 2rem;
+}
+
+.gmail-MyInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: var(--primary-bg);
+    background: var(--primary-text);
+    padding: 13px 10px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 230px;
+    transition: all 0.2s;
+    margin-top: 50px;
+}
+
+.gmail-MyInfo:hover {
+    transform: translate(0, -9px) scale(1.1);
+    box-shadow: -2px 2px 9px 0px #ffffff47;
+}
+

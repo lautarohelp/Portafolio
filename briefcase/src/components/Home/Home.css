@@ -1,0 +1,22 @@
+.Home-info {
+    max-width: var(--max-w);
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Home-info figure {
+    width: 74%;
+    height: 458px;
+    border-radius: 43%;    
+    background-image: url("../../imagenes/20240123_172846-min.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all 0.2s;
+    padding-bottom: 20px;
+}
+
+.Home-info figure:hover {
+    transform: scale(1.2);
+}
